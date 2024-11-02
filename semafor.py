@@ -58,6 +58,9 @@ def zvuk_cervena():
     time.sleep(0.5)
     play_tone(784, 0.5)
 
+lzelena.value(1)
+scervena.value(1)
+
 while True:
     dist = measure_distance()
     
