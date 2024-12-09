@@ -1,5 +1,5 @@
 import machine
-import time
+import time  
 
 # senzor
 trig = machine.Pin(0, machine.Pin.OUT)
